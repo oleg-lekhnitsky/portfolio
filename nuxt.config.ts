@@ -17,7 +17,7 @@ export default defineNuxtConfig({
             meta:[
               {
                 name: 'I create user-centered digital solutions that help business grow and engage more people',
-                hid: 'og:image', property: 'og:image', content: '/og.png',
+                hid: 'og:image', property: 'og:image', content: 'https://portfolio-liard-ten-39.vercel.app/og.png',
                 
               },
               {property: 'og:image:height', content: '1200'},
