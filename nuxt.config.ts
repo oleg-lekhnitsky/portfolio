@@ -17,9 +17,15 @@ export default defineNuxtConfig({
             meta:[
               {
                 name: 'I create user-centered digital solutions that help business grow and engage more people',
-                hid: 'og:image', property: 'og:image', content: '/0001.png', 
+                hid: 'og:image', property: 'og:image', content: '/og.png',
                 
-              }
+              },
+              {property: 'og:image:height', content: '1200'},
+              {property: 'og:image:width', content:'630'},
+              {property: 'og:title', content: 'Oleg Lekhnitsky — UX/UI Designer. Portfolio'},
+              {property: 'og:description', content:'I create user-centered digital solutions that help business grow and engage more people'},
+              {property: 'og:site:name', content:'Oleg Lekhnitsky — UX/UI Designer'}
+
             ],
             htmlAttrs: {
               lang: 'en',

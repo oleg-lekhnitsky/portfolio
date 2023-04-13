@@ -17,6 +17,19 @@
   --accent: #6e32e1;
 }
 
+@font-face {
+  font-family: 'PP Neue Montreal';
+  src: url('../fonts/PPNeueMontreal-Medium.eot');
+  src: url('../fonts/PPNeueMontreal-Medium.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/PPNeueMontreal-Medium.woff2') format('woff2'),
+      url('../fonts/PPNeueMontreal-Medium.woff') format('woff'),
+      url('../fonts/PPNeueMontreal-Medium.ttf') format('truetype'),
+      url('../fonts/PPNeueMontreal-Medium.svg') format('svg');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
 .light-mode {
   --text: var(--black);
   --text-light: var(--gray-dark);
