@@ -29,7 +29,8 @@ export default defineNuxtConfig({
               {property: 'og:site:name', content:'Oleg Lekhnitsky — UX/UI Designer'},
               {name: 'author', content:'Oleg Lekhnitsky'},
               {name:'twitter:caed', content:'summary_large_image'},
-              {name:'twitter:image', content:'https://portfolio-liard-ten-39.vercel.app/og.png'}
+              {name:'twitter:image', content:'https://portfolio-liard-ten-39.vercel.app/og.png'},
+              {property:'og:type', content:'website'},
 
             ],
             htmlAttrs: {
