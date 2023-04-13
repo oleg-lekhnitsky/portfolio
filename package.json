@@ -18,6 +18,7 @@
     "@nuxt/image": "^0.7.1",
     "@nuxtjs/color-mode": "^3.2.0",
     "@twicpics/components": "^0.16.1",
+    "@vercel/analytics": "^0.1.11",
     "sass": "^1.62.0"
   }
 }
