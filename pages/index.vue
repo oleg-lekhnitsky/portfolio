@@ -4,7 +4,7 @@
 
 
         <!-- <NuxtLayout>     </NuxtLayout>   -->
-        <div class="wrapper">
+        <div class="wrapper desktop">
 
             <!-- <ContentDoc /> -->
             <h1>I design digital solutions for businesses combining my expertise in UX/UI design, front-end development and

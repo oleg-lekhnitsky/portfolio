@@ -1,7 +1,8 @@
 <template>
   <div>
-
+    
     <NuxtLayout>
+      <NuxtLoadingIndicator />
       <NuxtPage />
     </NuxtLayout>
     <!-- <ContentDoc /> -->
@@ -27,16 +28,5 @@ body {
   color: #ebf4f1;
 } */
 
-.page-enter-active,
-.page-leave-active {
-  transition: all .5s cubic-bezier(.68, .07, .68, .97);
-}
 
-.page-enter-from,
-.page-leave-to {
-  transform: translateY(70px);
-  opacity: 0;
-  /* filter: blur(1rem); */
-
-}
 </style>

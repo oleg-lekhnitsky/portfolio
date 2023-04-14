@@ -6,7 +6,7 @@
     top: 0;
     width: 300px;
     max-width: 400px;
-    height: 100vh;
+    height: 100dvh;
     display: flex;
     flex-wrap: wrap;
     align-content: flex-start;
@@ -228,8 +228,7 @@ a.case-link {
         transition: all 50ms ease-in;
 
         #p {
-
-
+            border-radius: 50%;
             fill: var(--accent);
             stroke: var(--accent);
             transition: all 50ms ease-in;
@@ -266,4 +265,23 @@ select {
         border: 2px solid;
         border-radius: 5px;
     }
+}
+
+@media (orientation: portrait)  { 
+    .header{
+        min-width: 100vw;
+        z-index: 0;
+        height: 100dvh;
+        .logo-title{
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            padding-bottom: 20px;
+            top: 0;
+            
+        }
+        
+    }
+
 }

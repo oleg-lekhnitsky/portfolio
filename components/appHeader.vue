@@ -18,6 +18,12 @@
                 <p class="logo-title">Oleg Lekhnitsky <br> <span style="color: #BEBEBE;">UX/UI Designer</span></p>
             </NuxtLink>
         </div>
+        <h1 class="mobile" style="font-size: xx-large; margin: 0;">I design digital solutions for businesses combining my expertise in UX/UI design, front-end development and
+                branding.
+                <span style="color: var(--text-light);">I am passionate about creating user-centered products that solve
+                    problems and make life a little better. Advocating for design at all&nbsp;levels.</span>
+
+            </h1>
         <nav>
 
             <ul>

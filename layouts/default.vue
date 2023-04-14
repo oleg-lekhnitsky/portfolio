@@ -2,7 +2,7 @@
     <div>
       <appHeader />
       <slot />
-      <TheFooter />
+      <appFooter />
     </div>
   </template>
   
