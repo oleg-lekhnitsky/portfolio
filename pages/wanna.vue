@@ -1,12 +1,10 @@
 <template>
     <div class="wrapper">
-        <div class="mobile" style="position: sticky; top: 0; z-index: 9999; display: flex ; width: 100%; justify-content: space-between;  background-color: var(--bg); padding: .25rem .75rem ">
-            <nuxt-link class="mobile" style="font-size: 2rem;"
-                to="/symfa">←</nuxt-link>
-            <nuxt-link class="mobile"  style="font-size: 2rem;"
-                to="/">×</nuxt-link>
-            <nuxt-link class="mobile"  style="font-size: 2rem;"
-                to="/">→</nuxt-link>
+        <div class="mobile" style="position: sticky; top: 0; z-index: 9999;  width: 100%; justify-content: space-between;  padding: 16px 8px ;">
+            <nuxt-link class="mobile" style="font-size: 1.25rem; padding: 1rem 1.5rem;  border-radius: 20px;"
+                to="/">Home</nuxt-link>
+            <nuxt-link class="mobile"  style="font-size: 1.25rem; padding: 1rem 1.5rem; border-radius: 20px; "
+                to="/">Next Case</nuxt-link>
         </div>
         <h1>Wanna (Farfetch group): launching new 3D viewer for bags. <span style="color: var(--text-light);">UX/UI design
                 of product page</span></h1>

@@ -1,9 +1,9 @@
 
 <template>
-    <div>
 
 
-        <!-- <NuxtLayout>     </NuxtLayout>   -->
+
+        
         <div class="wrapper desktop">
 
             <!-- <ContentDoc /> -->
@@ -24,20 +24,11 @@
             </div>
             <!-- <video src="/happy.mp4" autoplay muted loop></video> -->
         </div>
-    </div>
+
 </template>
   
 <style>
-.page-enter-active,
-.page-leave-active {
-    transition: all 0.5s cubic-bezier(.68, .07, .68, .97);
-}
 
-.page-enter-from,
-.page-leave-to {
-    opacity: 0;
-    /* filter: blur(1rem); */
-}
 </style>
 
 

@@ -9,23 +9,25 @@
   --radius-m: 20px;
   --alpha-hover: .5;
   --black: #131313;
-  --black-light: #1d1d1d;
+  --black-light: #252525;
   --white: #fff;
   --gray-dark: #a0a0a0;
-  --gray-light: #f1f1f1;
+  --gray-light: #e7e7e7;
   --gray-middle: #e4e4e4;
-  --accent: #6e32e1;
+  --accent: #4744EF;
 }
 
 .page-enter-active,
 .page-leave-active {
+  
   transition: all .5s cubic-bezier(.68, .07, .68, .97);
 }
 
 .page-enter-from,
 .page-leave-to {
-  transform: translateY(70px);
+  // transform: translateY(70px);
   opacity: 0;
+  margin-top: 70px;
   /* filter: blur(1rem); */
 
 }
@@ -34,10 +36,10 @@
   font-family: 'PP Neue Montreal';
   src: url('../fonts/PPNeueMontreal-Medium.eot');
   src: url('../fonts/PPNeueMontreal-Medium.eot?#iefix') format('embedded-opentype'),
-      url('../fonts/PPNeueMontreal-Medium.woff2') format('woff2'),
-      url('../fonts/PPNeueMontreal-Medium.woff') format('woff'),
-      url('../fonts/PPNeueMontreal-Medium.ttf') format('truetype'),
-      url('../fonts/PPNeueMontreal-Medium.svg') format('svg');
+    url('../fonts/PPNeueMontreal-Medium.woff2') format('woff2'),
+    url('../fonts/PPNeueMontreal-Medium.woff') format('woff'),
+    url('../fonts/PPNeueMontreal-Medium.ttf') format('truetype'),
+    url('../fonts/PPNeueMontreal-Medium.svg') format('svg');
   font-weight: 500;
   font-style: normal;
   font-display: swap;
@@ -82,13 +84,14 @@ body {
   font-display: swap;
   font-weight: 400;
   transition: background 1s ease, color 1.3s ease;
+  overflow-x:hidden;
 }
 
-.mobile{
+.mobile {
   display: none;
 }
 
-.desktop{
+.desktop {
   display: block;
 }
 
@@ -100,8 +103,8 @@ body {
   // .mobile{
   //   display: none;
   // }
-  
-  .desktop{
+
+  .desktop {
     display: block;
   }
 }
@@ -249,14 +252,17 @@ img {
     width: 100%;
     border-radius: 20px;
     animation: fade-in 2s ease-in-out;
-    &:placeholder-shown{
+
+    &:placeholder-shown {
       background-color: #6e32e1;
     }
   }
-  &.xl{
+
+  &.xl {
     width: 66%;
   }
-  &.s{
+
+  &.s {
     width: 33%;
   }
 }
@@ -266,16 +272,17 @@ img {
 
 @media (orientation: portrait) {
 
-  .mobile{
+  .mobile {
     display: block;
   }
-  .desktop{
+
+  .desktop {
     display: none;
   }
 
 
 
-  .wrapper{
+  .wrapper {
     position: fixed;
     padding: 0;
     z-index: 999;
@@ -285,26 +292,40 @@ img {
     background-color: var(--bg);
     display: flex;
     flex-wrap: wrap;
-    .mobile{
-      display: block;
+
+    .mobile {
+      display: flex;
+
+      a{
+        background-color: var(--bg-third);
+        &:hover{
+          background-color: var(--accent);
+        }
+      }
     }
-    &.desktop{
+
+    &.desktop {
       display: none;
     }
-    *{
+
+    * {
       z-index: 999;
-      
+
     }
-    h1{
-      padding-top: 1rem;
+
+    h1 {
+      padding: 1rem 8px ;
       font-size: xx-large;
     }
-    .content-wrapper{
+
+    .content-wrapper {
       flex-wrap: wrap;
     }
-    .half{
+
+    .half {
       width: 100%;
-      .xl{
+
+      .xl {
         width: 100%;
       }
     }

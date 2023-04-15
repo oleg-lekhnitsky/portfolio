@@ -44,7 +44,8 @@ export default defineNuxtConfig({
     // 'bulma',
     '/assets/styles/globals.scss',
     '/assets/styles/_colors.scss',
-    '/assets/styles/header.scss'
+    '/assets/styles/header.scss',
+    '/assets/styles/about.scss'
   ],
 
 
