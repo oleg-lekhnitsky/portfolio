@@ -91,6 +91,7 @@
 
     a {
         background-color: transparent;
+        
     }
 
     .logo-title {
@@ -150,12 +151,15 @@ nav.list {
     border-radius: var(--radius-m);
     //background-color: var(--bg, white);
     cursor: pointer;
+
+
 }
 
 
 .cta {
     color: var(--bg-sec);
     background-color: var(--text);
+    
 }
 
 
@@ -163,14 +167,14 @@ nav.list {
 .cases-wrapper {
     display: flex;
     flex-wrap: wrap;
-    gap: 0px;
-    background-color: var(--bg);
+    gap: 10px;
+    
     border-radius: 20px;
-    transition: background-color 400ms ease-in-out;
+    transition: background-color 500ms ease-in-out;
 
     h3 {
         font-size: 1.5em;
-        padding: 15px 15px 5px 15px;
+        padding: 15px 15px 5px 0px;
     }
 }
 
@@ -179,8 +183,8 @@ nav.list {
     grid-template-columns: repeat(2, 1fr);
     grid-column-gap: 7px;
     grid-row-gap: 7px;
-    padding: 10px;
-    background-color: var(--bg);
+    padding: 0px;
+    
     border-radius: 20px;
     transition: background-color 400ms ease-in-out;
 
@@ -190,7 +194,7 @@ nav.list {
 a.case-link {
     height: fit-content;
     padding: 0;
-    border-radius: 0px;
+    border-radius: 20px;
     overflow: hidden;
     transition: all 300ms ease-out;
 

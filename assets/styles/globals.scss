@@ -15,11 +15,12 @@
   --gray-light: #e7e7e7;
   --gray-middle: #e4e4e4;
   --accent: #4744EF;
+  --accent2: #ffce13;
 }
 
 .page-enter-active,
 .page-leave-active {
-  
+
   transition: all .5s cubic-bezier(.68, .07, .68, .97);
 }
 
@@ -80,11 +81,11 @@ body {
   background-color: var(--bg);
   color: var(--text);
   overflow-x: hidden;
-  font-family: 'PP Neue Montreal', 'Arial Narrow', Arial, sans-serif;
+  font-family: 'PP Neue Montreal', Arial, sans-serif;
   font-display: swap;
   font-weight: 400;
   transition: background 1s ease, color 1.3s ease;
-  overflow-x:hidden;
+  overflow-x: hidden;
 }
 
 .mobile {
@@ -96,10 +97,10 @@ body {
 }
 
 .wrapper {
-  padding-left: 320px;
+  padding-left: 330px;
   padding-top: 25px;
   padding-bottom: 25px;
-  padding-right: 20px;
+  padding-right: 30px;
   // .mobile{
   //   display: none;
   // }
@@ -161,7 +162,7 @@ button {
   position: relative;
   cursor: pointer;
   transition: all ease-out 300ms;
-  font-family: 'PP Neue Montreal', 'Arial Narrow', Arial, sans-serif;
+  font-family: 'PP Neue Montreal', Arial, sans-serif;
   font-weight: 500;
   background-color: transparent;
   transition: background-color 400ms ease-in-out;
@@ -267,6 +268,25 @@ img {
   }
 }
 
+.cta-hero {
+  display: flex;
+  width: 100%;
+  min-height: 12rem;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--accent);
+  font-size: calc((var(--widthA))/25);
+  letter-spacing: -.03em;
+  border-radius: 80px;
+  margin: 20px 0;
+  color: var(--white);
+  cursor: url(/cursor1.png), auto;
+
+  &:hover{
+    background-color: var(--accent2);
+    color: var(--black);
+  }
+}
 
 
 
@@ -296,9 +316,10 @@ img {
     .mobile {
       display: flex;
 
-      a{
+      a {
         background-color: var(--bg-third);
-        &:hover{
+
+        &:hover {
           background-color: var(--accent);
         }
       }
@@ -314,7 +335,7 @@ img {
     }
 
     h1 {
-      padding: 1rem 8px ;
+      padding: 1rem 8px;
       font-size: xx-large;
     }
 

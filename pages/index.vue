@@ -17,11 +17,12 @@
                 <div class="half">
                     <nuxt-img format="webp" src="/0001.png" loading="lazy" quality="80" width="800" height="1000" />
                 </div>
-                <div class="half">
+                <!-- <div class="half">
                     <nuxt-img class="half" format="webp" src="/0001.png" loading="lazy" quality="80" width="800"
                         height="1000" />
-                </div>
+                </div> -->
             </div>
+            <NuxtLink to="/contact" class="cta-hero">Contact</NuxtLink>
             <!-- <video src="/happy.mp4" autoplay muted loop></video> -->
         </div>
 

@@ -53,17 +53,11 @@
                 <NuxtLink class="case-link" to="/wanna">
                     <nuxt-img src='/wanna.png' class="nav-img" format="webp" width={800} height={800} />
                 </NuxtLink>
+                <NuxtLink class="case-link" to="/wanna">
+                    <nuxt-img src='/pra.png' class="nav-img" format="webp" width={800} height={800} />
+                </NuxtLink>
 
-                <NuxtLink class="case-link">
-                    <nuxt-img src='/me.png' class="nav-img" format="webp" width={800} height={800} />
-                </NuxtLink>
-                <NuxtLink class="case-link">
-                    <nuxt-img src='/me.png' class="nav-img" format="webp" width={800} height={800} />
-                </NuxtLink>
-                <NuxtLink class="case-link">
-                    <!-- <nuxt-img src='/next.svg' class="nav-img" format="webp" width={800} height={800} /> -->
-                    <next></next>
-                </NuxtLink>
+
             </div>
         </div>
         <!-- <p>Color mode: {{ $colorMode.value }}</p> -->
