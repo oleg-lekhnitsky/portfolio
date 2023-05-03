@@ -83,7 +83,7 @@ body {
   overflow-x: hidden;
   font-family: 'PP Neue Montreal', Arial, sans-serif;
   font-display: swap;
-  font-weight: 400;
+  font-weight: 500;
   transition: background 1s ease, color 1.3s ease;
   overflow-x: hidden;
 }
@@ -120,7 +120,7 @@ h1 {
   font-weight: 500;
   line-height: 95%;
   letter-spacing: -1px;
-  margin-top: -5px;
+  
   font-size: calc((var(--widthA))/25);
   width: 100%;
   margin-bottom: 2rem;
@@ -156,6 +156,7 @@ a {
     transition: all ease-in 50ms;
   }
 }
+
 
 button {
   all: unset;

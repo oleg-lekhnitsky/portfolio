@@ -14,8 +14,9 @@
 
             </h1>
             <div class="content-wrapper">
-                <div class="half">
-                    <nuxt-img format="webp" src="/0001.png" loading="lazy" quality="80" width="800" height="1000" />
+                <div >
+                    <!-- <nuxt-img format="webp" src="/0001.png" loading="lazy" quality="80" width="800" height="1000" /> -->
+                    <video src="/hero.mp4" style="width: 100%; border-radius: 20px;" autoplay muted loop></video>
                 </div>
                 <!-- <div class="half">
                     <nuxt-img class="half" format="webp" src="/0001.png" loading="lazy" quality="80" width="800"

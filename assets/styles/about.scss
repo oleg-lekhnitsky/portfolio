@@ -26,14 +26,35 @@
   }
   a {
     width: fit-content;
-    background-color: var(--bg-sec);
-    padding: 1rem;
-    border-radius: 20px;
+    
+    
+    
 
     &:hover{
       background-color: var(--accent);
     }
   }
 
+
+}
+
+a.client{
+  display: inline-flex;
+  flex-wrap: wrap;
+  padding: .25em;
+  box-sizing: content-box;
+  font-size: xx-large;
+  background-color: var(--bg);
+  border: 1px solid var(--text);
+  font-size: calc((var(--widthA))/35);
+  border-radius: 20px;
+  line-height: 87%;
+  margin-left: -.25em;
+  margin-right: .375em;
+  margin-bottom: -.25em;
+  text-transform: u;
+  &:hover{
+    border: 1px solid var(--accent);
+  }
 
 }
