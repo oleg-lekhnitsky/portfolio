@@ -45,16 +45,14 @@ a.client{
   box-sizing: content-box;
   font-size: xx-large;
   background-color: var(--bg);
-  border: 1px solid var(--text);
-  font-size: calc((var(--widthA))/35);
-  border-radius: 20px;
+  border: 2px solid var(--text);
+  font-size: calc((var(--widthA))/45);
+  border-radius: 1vw;
   line-height: 87%;
-  margin-left: -.25em;
-  margin-right: .375em;
-  margin-bottom: -.25em;
   text-transform: u;
   &:hover{
-    border: 1px solid var(--accent);
+    border: 2px solid var(--accent);
+    color: var(--white);
   }
 
 }

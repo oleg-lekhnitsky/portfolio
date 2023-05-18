@@ -4,6 +4,7 @@
   margin: 0;
   box-sizing: border-box;
   font-weight: 500;
+  -webkit-font-smoothing: antialiased;
   --widthA: 100vw;
 
   --radius-m: 20px;
@@ -97,8 +98,9 @@ body {
 }
 
 .wrapper {
+  position: relative;
   padding-left: 330px;
-  padding-top: 25px;
+  padding-top: 0px;
   padding-bottom: 25px;
   padding-right: 30px;
   // .mobile{
@@ -120,7 +122,7 @@ h1 {
   font-weight: 500;
   line-height: 95%;
   letter-spacing: -1px;
-  
+
   font-size: calc((var(--widthA))/25);
   width: 100%;
   margin-bottom: 2rem;
@@ -130,6 +132,7 @@ h1 {
 h2 {
   font-size: calc((var(--widthA))/35);
 }
+
 
 p {
   font-weight: 500;
@@ -191,14 +194,14 @@ button {
 
 /* Style the scrollbar background */
 ::-webkit-scrollbar {
-  background: var(--bg);
-  width: 10px;
+  background: var(-text);
+  width: 5px;
 }
 
 /* Style the scrollbar handle */
 ::-webkit-scrollbar-thumb {
   border-radius: 20px;
-  background: var(--bg-third);
+  background: var(--text);
 
 }
 
@@ -226,7 +229,9 @@ button {
 
 
 .headline {
-  background-color: red;
+  font-size: 18vw;
+  letter-spacing: -.03em;
+
 }
 
 iframe {
@@ -261,11 +266,11 @@ img {
   }
 
   &.xl {
-    width: 66%;
+    width: 75%;
   }
 
   &.s {
-    width: 33%;
+    width: 25%;
   }
 }
 
@@ -283,7 +288,7 @@ img {
   color: var(--white);
   cursor: url(/cursor1.png), auto;
 
-  &:hover{
+  &:hover {
     background-color: var(--accent2);
     color: var(--black);
   }
