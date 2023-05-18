@@ -125,7 +125,7 @@ export default {
             transform: translate(-50%, -50%);
 
             &:after {
-                background: black;
+                background-color: black;
                 width: 2vw;
                 height: 2vw;
                 transform: inherit;
