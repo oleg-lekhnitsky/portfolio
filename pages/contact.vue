@@ -1,5 +1,5 @@
 <template>
-    <div class="wrapper" style="display: flex; justify-content: space-between; flex-direction: column; min-height: 100vh; width: 100%;">
+    <div class="wrapper" style="display: flex; justify-content: space-between; flex-direction: column; min-height: 100dvh; width: 100%;">
         <div class="mobile"
             style="position: fixed; top: 0; right: -8px; z-index: 9999; padding: 1rem; font-size: 2rem; ">
             <nuxt-link class="mobile" style="font-size: 2rem; line-height: 50%; padding: 1rem ; border-radius: 20px;"

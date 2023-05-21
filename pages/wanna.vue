@@ -78,7 +78,7 @@ h1 {
 
 @media screen and (max-width: 767px) {
     .image-wrapper {
-    height: 30dvh;
+    height: 40vh;
     overflow-y: scroll;
   }
   }
