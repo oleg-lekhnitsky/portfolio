@@ -1,8 +1,7 @@
-
 .eyes {
     /* background-color: var(--black); */
     /* padding: .5vw; */
-    
+
     box-sizing: border-box;
     border-radius: 50vw;
     position: relative;
@@ -52,7 +51,7 @@
             display: inline-block;
             border-radius: 50%;
             position: absolute;
-            
+
         }
 
         .iris,
@@ -80,4 +79,37 @@
 
 .nose {
     width: .5vw;
+}
+
+@media screen and (max-width: 767px) {
+
+.eyes{
+    .eye {
+        position: relative;
+        display: inline-block;
+        height: 1rem;
+        width: 1rem;
+        background: white;
+        border-radius: 50%;
+        .iris {
+            height: 2rem;
+            width: 1rem;
+            background: var(--white);
+            transform: translate(-50%, -50%);
+    
+            &:after {
+                background: black;
+                width: .75rem;
+                height: .75rem;
+                transform: inherit;
+            }
+        }
+    }
+
+
+
+    .nose {
+        width: .1rem;
+    }
+}
 }

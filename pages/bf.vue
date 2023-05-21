@@ -1,10 +1,15 @@
 <template>
     <div class="wrapper">
+        <div class="mobile"
+            style="position: fixed; top: 0; right: -8px; z-index: 9999; padding: 1rem; font-size: 2rem; ">
+            <nuxt-link class="mobile" style="font-size: 2rem; line-height: 50%; padding: 1rem ; border-radius: 20px;"
+                to="/">×</nuxt-link>
+        </div>
       <h1 class="headline">(BF)</h1>
-      <h1 class="half xl">
+      <h2 class="half xl">
         Giving a voice to local indie cinema and filmmakers.
         <span style="color: var(--text-light);">UX/UI design for independent online theater web app</span>
-      </h1>
+      </h2>
       <div class="half xl" style="margin-bottom: 2vw;">
         <h3>
           The goal was to create a seamless and engaging platform that caters to the needs of both filmmakers and cinema enthusiasts.
@@ -13,7 +18,7 @@
       <div class="content-wrapper">
         <div
           class="half xl"
-          style="box-shadow: 1px 20px 30px 0px rgba(0,0,0,0.14); -moz-box-shadow: 1px 20px 30x 0px rgba(0,0,0,0.14); border-radius: 2vw; overflow: hidden; margin-bottom: 2vw;"
+          style="box-shadow: 1px 20px 30px 0px rgba(0,0,0,0.14); -moz-box-shadow: 1px 20px 30px 0px rgba(0,0,0,0.14); border-radius: 2vw; overflow: hidden; margin-bottom: 2vw;"
         >
           <div
             ref="imageWrapper"
@@ -22,13 +27,13 @@
             @mouseleave="startImageScroll"
           >
             <nuxt-img
-              ref="image"
               format="webp"
               src="/bf-landing.png"
               loading="lazy"
               quality="100"
               width="1200"
-              style="min-height: 1200px;"
+
+              :options="{ width: '100%', height: '100%' }"
             />
           </div>
         </div>
@@ -51,18 +56,19 @@
     },
     methods: {
       startImageScroll() {
-        this.scrollInterval = setInterval(() => {
-          const imageWrapper = this.$refs.imageWrapper;
-          const imageElement = this.$refs.image.$el;
+        const imageWrapper = this.$refs.imageWrapper;
   
-          imageWrapper.scrollTop += 1; // Increase the scroll position by 1 pixel
-          if (
-            imageWrapper.scrollTop + imageWrapper.clientHeight >=
-            imageElement.offsetHeight
-          ) {
-            imageWrapper.scrollTop = 0; // Reset scroll position when it reaches the bottom
-          }
-        }, 20); // Adjust the interval duration (in milliseconds) as needed for the desired scroll speed
+        if (imageWrapper) {
+          this.scrollInterval = setInterval(() => {
+            imageWrapper.scrollTop += 1; // Increase the scroll position by 1 pixel
+            if (
+              imageWrapper.scrollTop + imageWrapper.clientHeight >=
+              imageWrapper.scrollHeight
+            ) {
+              imageWrapper.scrollTop = 0; // Reset scroll position when it reaches the bottom
+            }
+          }, 20); // Adjust the interval duration (in milliseconds) as needed for the desired scroll speed
+        }
       },
       stopImageScroll() {
         clearInterval(this.scrollInterval); // Stop the scrolling interval
@@ -93,11 +99,6 @@
     /* Add your styles for the h1 element here */
   }
   
-  h3,
-  p {
-    /* Add your styles for the h3 element here */
-    font-size: calc(var(--widthA) / 55);
-    margin-bottom: 1vw;
-  }
+
   </style>
   

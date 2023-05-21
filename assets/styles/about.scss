@@ -4,7 +4,7 @@
   list-style-type: none;
   display: flex;
   flex-wrap: wrap;
-  gap: 8px;
+  gap: 1vw;
   //flex-direction: column;
   
   ul{
@@ -38,21 +38,6 @@
 
 }
 
-a.client{
-  display: inline-flex;
-  flex-wrap: wrap;
-  padding: .25em;
-  box-sizing: content-box;
-  font-size: xx-large;
-  background-color: var(--bg);
-  border: 2px solid var(--text);
-  font-size: calc((var(--widthA))/45);
-  border-radius: 1vw;
-  line-height: 87%;
-  text-transform: u;
-  &:hover{
-    border: 2px solid var(--accent);
-    color: var(--white);
-  }
 
-}
+
+
