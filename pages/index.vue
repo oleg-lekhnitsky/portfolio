@@ -18,7 +18,7 @@
             <div class="content-wrapper">
 
 
-                    <video src="/sh.mp4" style="display: block ;width: 100%;  height: auto; background-color: var(--bg); border-radius: 1vw; aspect-ratio: 1.54700/1; clip-path: inset(1px 1px);" autoplay muted loop></video>
+                    <video  src="/sh.mp4" style="width: 100%;  height: auto; background-color: var(--bg); border-radius: 1vw; aspect-ratio: 1.54700/1; clip-path: inset(1px 1px);" autoplay muted loop></video>
         
                 
 

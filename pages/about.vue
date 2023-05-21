@@ -189,7 +189,7 @@ ul.cv p:last-child {
 
   ul.cv {
   font-size: 2em;
-  padding: 1.25rem 1rem ;
+  padding: 1.25rem .75rem ;
   margin-bottom: .25rem;
   background-color: var(--accent);
   border-radius: 1rem;
@@ -210,7 +210,9 @@ ul.cv p:last-child {
 }
 
 h2.half{
-  padding: 0 1rem;
+  padding: 0 .5rem;
+  padding-right: 1rem;
+  width: fit-content;
 }
 
 }</style>
