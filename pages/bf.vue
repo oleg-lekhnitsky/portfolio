@@ -91,14 +91,19 @@
   }
   
   .image-wrapper {
-    height: 70vh;
+    height: 70dvh;
     overflow-y: scroll;
   }
   
   h1 {
     /* Add your styles for the h1 element here */
   }
-  
+  @media screen and (max-width: 767px) {
+    .image-wrapper {
+    height: 30dvh;
+    overflow-y: scroll;
+  }
+  }
 
   </style>
   

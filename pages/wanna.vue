@@ -75,5 +75,12 @@ export default {
 h1 {
     /* Add your styles for the h1 element here */
 }
+
+@media screen and (max-width: 767px) {
+    .image-wrapper {
+    height: 30dvh;
+    overflow-y: scroll;
+  }
+  }
 </style>
   
