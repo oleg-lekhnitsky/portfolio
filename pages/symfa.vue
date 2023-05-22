@@ -49,7 +49,7 @@
     iframe.desktop {
       width: 100%;
       margin-bottom: 1em;
-      max-height: 70dvh;
+      max-height: 80vh;
     }
 
   }

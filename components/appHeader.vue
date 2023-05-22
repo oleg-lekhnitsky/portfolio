@@ -43,7 +43,7 @@
                 <NuxtLink class="case-link" to="/wanna">
                     <nuxt-img src='/wanna.png' class="nav-img" format="webp" width={800} height={800} />
                 </NuxtLink>
-                <NuxtLink class="case-link" to="/wanna">
+                <NuxtLink class="case-link" to="/pra">
                     <nuxt-img src='/pra.png' class="nav-img" format="webp" width={800} height={800} />
                 </NuxtLink>
 
