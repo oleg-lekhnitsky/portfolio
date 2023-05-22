@@ -35,7 +35,7 @@
       const videoElement = document.getElementById('projectVideo');
   
       if (!isMobile) {
-        videoElement.setAttribute('autoplay', false); // Apply the autoplay attribute for non-mobile devices
+        videoElement.setAttribute('autoplay', true); // Apply the autoplay attribute for non-mobile devices
       }
     },
   };
