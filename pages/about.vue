@@ -1,14 +1,11 @@
 <template>
   <div>
     <div class="wrapper">
-      <div class="mobile"
-            style="position: fixed; top: 0; right: -8px; z-index: 9999; padding: 1rem; font-size: 2rem; ">
-            <nuxt-link class="mobile" style="font-size: 2rem; line-height: 50%; padding: 1rem ; border-radius: 20px;"
-                to="/">×</nuxt-link>
-        </div>
-      <!-- <h1>I've been working as a digital designer for last 4 years
-        <span style="color: var(--text-light);">with tech companies and startups</span>
-      </h1> -->
+      <div class="mobile" style="position: fixed; top: 0; right: -8px; z-index: 9999; padding: 1rem; font-size: 2rem; ">
+        <nuxt-link class="mobile" style="font-size: 2rem; line-height: 50%; padding: 1rem ; border-radius: 20px;"
+          to="/">×</nuxt-link>
+      </div>
+
 
 
       <div>
@@ -47,54 +44,55 @@
 
       </div>
       <section>
-      <div >
-        <div style="position: sticky; top: 0; height: fit-content;">
-          <h2>POV: you hired me for work and got</h2>
+        <div>
+          <div style="position: sticky; top: 0; height: fit-content;">
+            <h2>POV: you hired me for work and got</h2>
+          </div>
         </div>
-      </div>
-      <div style="display: flex; gap: 0vw; flex-wrap: wrap;">
-        <ul class="cv"
-          >
-          <h3>Research</h3>
-          <p style="margin-bottom: .5em;">It's the very first thing I do before opening Figma. Research helps to save time
-            on
-            design, highlight common patterns in existing products and create hypothesis.</p>
-          <p>I dive deep to gather and analyze data from various sources, including user interviews, surveys, exsisting
-            products and their solutions, and use that information to maintain design decisions that improve user
-            experiences and drive project success.</p>
-        </ul>
-        <ul class="cv">
-          <h3>UX/UI design</h3>
-          <p style="margin-bottom: .5em;">I design user-centered interfaces for products, working closely with
-            cross-functional teams to make sure design idea works as it should and meet business goals.</p>
-          <p style="margin-bottom: .5em;">In addition, I enjoy mentoring junior designers, pitching concepts to clients,
-            and working alongside other motivated professionals.</p>
-          <p> Keywords for HR: design systems, wireframing, prototyping, usability and concept testing, CJM, JTBD,
-            responsible and
-            adaptive design, typography, grids, 3D basics, motion design.</p>
+        <div style="display: flex; gap: 0vw; flex-wrap: wrap;">
+          <ul class="cv">
+            <h3>Research</h3>
+            <p style="margin-bottom: .5em;">It's the very first thing I do before opening Figma. Research helps to save
+              time
+              on
+              design, highlight common patterns in existing products and create hypothesis.</p>
+            <p>I dive deep to gather and analyze data from various sources, including user interviews, surveys, exsisting
+              products and their solutions, and use that information to maintain design decisions that improve user
+              experiences and drive project success.</p>
+          </ul>
+          <ul class="cv">
+            <h3>UX/UI design</h3>
+            <p style="margin-bottom: .5em;">I design user-centered interfaces for products, working closely with
+              cross-functional teams to make sure design idea works as it should and meet business goals.</p>
+            <p style="margin-bottom: .5em;">In addition, I enjoy mentoring junior designers, pitching concepts to clients,
+              and working alongside other motivated professionals.</p>
+            <p> Keywords for HR: design systems, wireframing, prototyping, usability and concept testing, CJM, JTBD,
+              responsible and
+              adaptive design, typography, grids, 3D basics, motion design.</p>
 
-        </ul>
+          </ul>
 
-        <ul class="cv">
-          <h3>Front-end development</h3>
-          <p style="margin-bottom: .5em;">Proficient in HTML, CSS, and a bit in JavaScript, allowing me to create
-            interactive prototypes, ready-to-go
-            components, test concepts, and work more effectively with developers.</p>
-          <p>Knowing all that also help me to handle basic web developement like static websites, landing pages, design
-            systems, mixins, components, adaptive layouts. I work with Git and tend to speed up some routine tasks.
-            Usually I use Nuxt framework for my personal projects.</p>
-        </ul>
-        <ul class="cv">
-          <h3>Creative concepts</h3>
-          <p style="margin-bottom: .5em;">I am skilled in ideation and concept development, and have a proven ability to
-            generate innovative ideas and solutions while keeping in mind relevant limitations and contexts.</p>
-          <p>My familiarity with various software instruments enables me to develop and lead ideas all the way through to
-            production.</p>
-        </ul>
-      </div>
-    </section>
+          <ul class="cv">
+            <h3>Front-end development</h3>
+            <p style="margin-bottom: .5em;">Proficient in HTML, CSS, and a bit in JavaScript, allowing me to create
+              interactive prototypes, ready-to-go
+              components, test concepts, and work more effectively with developers.</p>
+            <p>Knowing all that also help me to handle basic web developement like static websites, landing pages, design
+              systems, mixins, components, adaptive layouts. I work with Git and tend to speed up some routine tasks.
+              Usually I use Nuxt framework for my personal projects.</p>
+          </ul>
+          <ul class="cv">
+            <h3>Creative concepts</h3>
+            <p style="margin-bottom: .5em;">I am skilled in ideation and concept development, and have a proven ability to
+              generate innovative ideas and solutions while keeping in mind relevant limitations and contexts.</p>
+            <p>My familiarity with various software instruments enables me to develop and lead ideas all the way through
+              to
+              production.</p>
+          </ul>
+        </div>
+      </section>
     </div>
-    
+
 
 
 
@@ -105,9 +103,11 @@
 * {
   box-sizing: border-box;
 }
-section{
+
+section {
   margin-top: 4vw;
 }
+
 .clients {
   display: flex;
   gap: .5vw;
@@ -160,16 +160,17 @@ ul.cv {
   border-radius: 2vw;
   width: 50%;
 }
+
 ul.cv p:last-child {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 
 @media screen and (max-width: 767px) {
 
-  section{
-  margin-top: 2rem;
-}
+  section {
+    margin-top: 2rem;
+  }
 
   .clients {
     gap: .25em;
@@ -188,31 +189,32 @@ ul.cv p:last-child {
   }
 
   ul.cv {
-  font-size: 2em;
-  padding: 1.25rem .75rem ;
-  margin-bottom: .25rem;
-  background-color: var(--accent);
-  border-radius: 1rem;
-  width: 100%;
-}
+    font-size: 2em;
+    padding: 1.25rem .75rem;
+    margin-bottom: .25rem;
+    background-color: var(--accent);
+    border-radius: 1rem;
+    width: 100%;
+  }
 
 
 
 
-.cv h3{
-  font-size: 1em;
-}
-.cv p{
-  text-indent: 2rem;
-  font-size: 1rem;
-  padding: 0;
-  line-height: 120%;
-}
+  .cv h3 {
+    font-size: 1em;
+  }
 
-h2.half{
-  padding: 0 .5rem;
-  padding-right: 1rem;
-  width: fit-content;
-}
+  .cv p {
+    text-indent: 2rem;
+    font-size: 1rem;
+    padding: 0;
+    line-height: 120%;
+  }
+
+  h2.half {
+    padding: 0 .5rem;
+    padding-right: 1rem;
+    width: fit-content;
+  }
 
 }</style>
