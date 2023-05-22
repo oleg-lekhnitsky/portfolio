@@ -323,7 +323,9 @@ select {
             font-size: 2rem;
             letter-spacing: -.25px;
         }
-
+        li a{
+            font-size: 2rem;
+        }
     }
 
     .header-inner-wrapper{
@@ -344,6 +346,7 @@ select {
         margin-top: 2rem;
         padding-right: 25px;
         top: 0;
+        font-size: 1rem;
 
         p {
             margin: 0;
