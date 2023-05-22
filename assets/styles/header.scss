@@ -294,6 +294,7 @@ select {
         min-width: 100vw;
         z-index: 0;
         height: 100dvh;
+        overflow-y: scroll;
         padding: 24px 12px;
 
         h1.mobile{
@@ -324,8 +325,10 @@ select {
         flex-wrap: wrap;
         max-width: 100%;
         gap: .5rem;
+        height: fit-content;
         margin-top: 2rem;
         padding-right: 25px;
+        top: 0;
 
         p {
             margin: 0;
