@@ -1,21 +1,23 @@
 .header {
-
     font-size: 15px;
     font-weight: 500;
     position: fixed;
     top: 0;
+    left: 0;
     width: 300px;
     max-width: 400px;
     min-height: 100vh;
+    height: 100vh;
     display: flex;
     flex-wrap: wrap;
     align-content: flex-start;
+    justify-content: space-between;
     gap: 1rem;
     align-items: flex-start;
     background-color: var(--bg-sec, #f1f1f1);
     padding: 25px 20px;
     z-index: 999;
-    overflow-y: scroll;
+    overflow-y: auto;
     transition: background 1s ease;
 
     p {
@@ -276,10 +278,10 @@ select {
 
 .header-additional {
     box-sizing: border-box;
-    position: static;
+
     display: flex;
     flex-wrap: wrap;
-    top: 90%;
+
     max-width: 400px;
     gap: 10px;
     margin-top: 2vw;
@@ -298,7 +300,7 @@ select {
         overflow-y: scroll;
         padding: 24px 12px;
 
-        h1.mobile{
+        h1.mobile {
             letter-spacing: -.25px;
         }
 
@@ -317,7 +319,7 @@ select {
             font-size: 2rem;
             letter-spacing: -.25px;
         }
-    
+
     }
 
     .header-additional {
