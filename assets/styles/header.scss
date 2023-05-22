@@ -6,7 +6,7 @@
     top: 0;
     width: 300px;
     max-width: 400px;
-    height: 100dvh;
+    min-height: 100vh;
     display: flex;
     flex-wrap: wrap;
     align-content: flex-start;
@@ -313,6 +313,7 @@ select {
         }
 
         .cases-wrapper h3 {
+            width: 100%;
             font-size: 2rem;
             letter-spacing: -.25px;
         }
