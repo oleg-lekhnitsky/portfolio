@@ -15,7 +15,7 @@
         </h3>
         <p>Check out both mobile and desktop versions:</p>
         <div style="display: flex; gap: 1%; margin: 2vw 0; width: 100%;">
-          <iframe class="desktop" src="https://symfa.com/" frameborder="0"  height="800px"></iframe>
+          <iframe class="desktop" src="https://symfa.com/" frameborder="0"  height="800px"   width="25%" ></iframe>
           <iframe ref="mobileFrame" src="https://symfa.com/" frameborder="0" width="75%" height="800px"></iframe>
         </div>
         <p class="half xl">

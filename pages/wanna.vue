@@ -1,16 +1,19 @@
 <template>
     <div class="wrapper">
-        <div class="mobile"
-            style="position: fixed; top: 0; right: -8px; z-index: 9999; padding: 1rem; font-size: 2rem; ">
+        <div class="mobile" style="position: fixed; top: 0; right: -8px; z-index: 9999; padding: 1rem; font-size: 2rem; ">
             <nuxt-link class="mobile" style="font-size: 2rem; line-height: 50%; padding: 1rem ; border-radius: 20px;"
                 to="/">×</nuxt-link>
         </div>
         <h1 class="headline">(wanna)</h1>
         <h2>
-            Wanna (Farfetch group) is a fashion-tech company that develops AR technologies for marketplaces:
-            launching new 3D viewer for bags. <span style="color: var(--text-light);">UX/UI design of product page</span>
+            Wanna (Farfetch group) is a fashion-tech company that develops AR technologies for marketplaces.
+            Launching new 3D viewer for bags: <span style="color: var(--text-light);">UX/UI design for the product
+                page</span>
         </h2>
-        <p class="half xl">Wanna (Farfetch group) is a fashion-tech company that develops AR technologies for marketplaces
+        <p class="half xl">The brand new 3D viewer is a technology that businesses can integrate into their web app or iOS
+            app, to showcase bags in a 3D format.
+        </p>
+        <p class="half xl">The main goal of this page was to provide potential clients with a seamless experience of trying out the 3D viewer with minimal steps. By implementing an intuitive user interface and streamlining the user journey, I aimed to showcase the benefits and advantages of utilizing this cutting-edge technology.
         </p>
         <div class="content-wrapper">
             <div class="half xl" style="border-radius: 2vw; overflow: hidden;">
@@ -19,10 +22,10 @@
                         style="min-height: 1200px;" />
                 </div>
             </div>
-            <div class="half s" style="padding-left: 2rem;">
-                <h3>UX/UI Design for online theater</h3>
-            </div>
+
         </div>
+        <p class="half xl">Additionally, I enhanced the user experience by incorporating success stories and a comprehensive list of companies that have already embraced and implemented the 3D viewer technology. This not only helps build trust and credibility but also allows potential clients to see real-world examples of the technology's effectiveness and its positive impact on businesses within the industry.
+        </p>
     </div>
 </template>
   
@@ -61,6 +64,7 @@ export default {
 
 .content-wrapper {
     display: flex;
+    margin-bottom: 2em;
 }
 
 .half {
@@ -78,9 +82,9 @@ h1 {
 
 @media screen and (max-width: 767px) {
     .image-wrapper {
-    height: 40vh;
-    overflow-y: scroll;
-  }
-  }
+        height: 40vh;
+        overflow-y: scroll;
+    }
+}
 </style>
   

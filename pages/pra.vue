@@ -6,13 +6,14 @@
     </div>
     <h1 class="headline">(PRA)</h1>
     <h2 class="">
-      Giving a voice to local indie cinema and filmmakers.
-      <span style="color: var(--text-light);">UX/UI design for independent online theater web app</span>
+      Pocket Rocket is a branding agency that works mostly with tech companies, startups, and telecom.
+      <span style="color: var(--text-light);">UX/UI design for a corporate website.</span>
     </h2>
     <div class="half xl" style="margin-bottom: 2vw;">
       <h3>
-        The goal was to create a seamless and engaging platform that caters to the needs of both filmmakers and cinema
-        enthusiasts.
+        Our main objective was to develop a cutting-edge system that empowers agency designers to effortlessly create
+        portfolio cases with ease. Our solution is built on flexible templates that seamlessly adapt to every screen size,
+        ensuring the page looks impeccable on any device.
       </h3>
     </div>
     <div class="content-wrapper">
@@ -23,14 +24,14 @@
 
     <div class="half xl" style="margin-bottom: 2vw;">
       <p>
-        The UI design is made in a way focused on presenting films in an appealing and immersive manner. High-quality
-        visuals, including vibrant film shots and captivating imagery, were used to create an enticing film browsing
-        experience.
+        But we didn't stop there. Recognizing the fluid nature of design systems, we took on the challenge of creating a
+        website that seamlessly integrates with our agency's ever-evolving aesthetic. Our team of talented designers and
+        developers worked tirelessly to ensure that our corporate website could adapt to any changes in the design system
+        effortlessly. In a couple of minutes, the entire look and feel of the website can be transformed to match the latest
+        design iterations, reflecting our agency's commitment to staying at the forefront of design trends.
       </p>
       <p>
-        A dedicated section highlighting awards and showcasing the newest films was incorporated into the design. This
-        section aimed to generate interest and provide an engaging experience for users. It showcased award-winning films,
-        recent releases, and upcoming screenings, creating anticipation and fostering a sense of discovery.
+        We envisioned a journey for our visitors — a journey where they are immersed in the beauty of our work, where they can easily navigate through our portfolio cases, and where they feel inspired to connect with our agency. The intuitive user interface of our corporate website guides visitors through a seamless experience, showcasing our projects in a visually captivating manner. Each portfolio case tells a unique story, carefully curated to highlight our agency's expertise, creativity, and attention to detail.
       </p>
     </div>
   </div>
@@ -92,6 +93,5 @@ h1 {
     height: 40vh;
     overflow-y: scroll;
   }
-}
-</style>
+}</style>
   
