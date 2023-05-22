@@ -20,7 +20,7 @@
           id="projectVideo"
           src="/sh.mp4"
           style="width: 100%; height: auto; background-color: var(--bg); border-radius: 1vw; aspect-ratio: 1.54700/1; clip-path: inset(1px 1px);"
-          muted loop playsinline
+          muted loop playsinline autoplay
         ></video>
       </div>
   
@@ -35,7 +35,7 @@
       const videoElement = document.getElementById('projectVideo');
   
       if (!isMobile) {
-        videoElement.setAttribute('autoplay', true); // Apply the autoplay attribute for non-mobile devices
+        videoElement.setAttribute('autoplay', false); // Apply the autoplay attribute for non-mobile devices
       }
     },
   };
