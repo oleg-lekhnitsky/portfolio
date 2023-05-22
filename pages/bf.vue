@@ -16,14 +16,14 @@
       </h3>
     </div>
     <div class="content-wrapper">
-            <div class="half xl" style="border-radius: 2vw; overflow: hidden;">
-                <div ref="imageWrapper" class="image-wrapper" @mouseenter="stopImageScroll" @mouseleave="startImageScroll">
-                    <nuxt-img ref="image" format="webp" src="/bf-landing.png" loading="lazy" quality="100" width="1200"
-                        style="min-height: 1200px;" />
-                </div>
-            </div>
-
+      <div class="half xl" style="border-radius: 2vw; overflow: hidden;">
+        <div ref="imageWrapper" class="image-wrapper" @mouseenter="stopImageScroll" @mouseleave="startImageScroll">
+          <nuxt-img ref="image" format="webp" src="/bf-landing.png" loading="lazy" quality="100" width="1200"
+            style="min-height: 1200px;" />
         </div>
+      </div>
+
+    </div>
     <div class="half xl" style="margin-bottom: 2vw;">
       <p>
         The UI design is made in a way focused on presenting films in an appealing and immersive manner. High-quality
@@ -73,7 +73,9 @@ export default {
 }
 
 .content-wrapper {
+  overflow: hidden;
   display: flex;
+  margin-bottom: 2vw;
 }
 
 .half {
@@ -81,8 +83,10 @@ export default {
 }
 
 .image-wrapper {
-  height: 70dvh;
+  width: 100%;
+  aspect-ratio: 16/9;
   overflow-y: scroll;
+
 }
 
 h1 {
@@ -91,8 +95,9 @@ h1 {
 
 @media screen and (max-width: 767px) {
   .image-wrapper {
-    height: 40vh;
+    height: auto;
     overflow-y: scroll;
+    margin-bottom: 1rem;
   }
 }
 </style>
