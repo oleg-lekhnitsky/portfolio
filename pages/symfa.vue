@@ -13,10 +13,10 @@
           differentiate Symfa visually from its main *boring blue color lovers club* competitors, and attract potential employees through a modern and
           friendly vibe.
         </h3>
-        <p>Check out both mobile and desktop versions:</p>
+        <p>Check out developed website below</p>
         <div style="display: flex; gap: 1%; margin: 2vw 0; width: 100%;">
-          <iframe class="desktop" src="https://symfa.com/" frameborder="0"  height="800px"   width="25%" ></iframe>
-          <iframe ref="mobileFrame" src="https://symfa.com/" frameborder="0" width="75%" height="800px"></iframe>
+
+          <iframe src="https://symfa.com/" frameborder="0" width="100&" height="800px"></iframe>
         </div>
         <p class="half xl">
           Customized visual elements, color schemes, and typography were employed to create a unique brand identity that reflects the company's values and expertise.
@@ -28,15 +28,7 @@
     </div>
   </template>
   
-  <script>
-  export default {
-    mounted() {
-      if (window.innerWidth < 768) {
-        this.$refs.mobileFrame.style.display = 'none';
-      }
-    }
-  };
-  </script>
+
   
   <style>
   h3,
